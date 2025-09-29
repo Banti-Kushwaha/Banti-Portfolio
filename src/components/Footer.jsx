@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
         {/* Left Side - Copyright */}
         <p className="text-sm opacity-80">
-          © {new Date().getFullYear()} <span className="font-semibold">Pedrotech.co</span>. All rights reserved.
+          © {new Date().getFullYear()} <span className="font-semibold">banti.com</span>. All rights reserved.
         </p>
 
         {/* Center - Social Links */}
