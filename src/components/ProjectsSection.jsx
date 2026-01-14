@@ -1,8 +1,28 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
-  
- 
+  {
+    id: 1,
+    title: "Weather Forecast Web Application",
+    description:
+      "A modern and fully responsive Weather Forecast Web Application built using React JS, Tailwind CSS, and JavaScript. The app fetches real-time weather data from a Weather API and allows users to search for any city to view current temperature, humidity, and wind speed. It features a clean navigation bar, a visually appealing weather card, and an informative landing section, providing a smooth and user-friendly experience across both desktop and mobile devices.",
+    image: "/public/weather.png",
+    tags: ["React JS", "Tailwind CSS", "JavaScript", "API"],
+    demoUrl: "https://newweathercheck.netlify.app/",
+    githubUrl:
+      "https://github.com/Banti-Kushwaha/Banti-Portfolio/tree/main/public",
+  },
+
+  // {
+  //   id: 2,
+  //   title: "",
+  //   description:
+  //     " ",
+  //   image: " ",
+  //   tags: ["TypeScri],
+  //   demoUrl: "#",
+  //   githubUrl: "#",
+  // },
 ];
 
 export const ProjectsSection = () => {
@@ -11,8 +31,13 @@ export const ProjectsSection = () => {
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           {" "}
-          <span className="text-primary"> Projects </span>
+          Featured <span className="text-primary"> Projects </span>
         </h2>
+
+        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+          Here are some of my recent projects. Each project was carefully
+          crafted with attention to detail, performance, and user experience.
+        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, key) => (
@@ -68,7 +93,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/Banti-Kushwaha"
+            href="https://github.com/machadop1407"
           >
             Check My Github <ArrowRight size={16} />
           </a>
