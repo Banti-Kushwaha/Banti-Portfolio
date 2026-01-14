@@ -6,7 +6,7 @@ const projects = [
     title: "Weather Forecast Web Application",
     description:
       "A modern and fully responsive Weather Forecast Web Application built using React JS, Tailwind CSS, and JavaScript. The app fetches real-time weather data from a Weather API and allows users to search for any city to view current temperature, humidity, and wind speed. It features a clean navigation bar, a visually appealing weather card, and an informative landing section, providing a smooth and user-friendly experience across both desktop and mobile devices.",
-    image: "/public/weather.png",
+    image: "../assets/weather.png",
     tags: ["React JS", "Tailwind CSS", "JavaScript", "API"],
     demoUrl: "https://newweathercheck.netlify.app/",
     githubUrl:
