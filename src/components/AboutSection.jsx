@@ -37,7 +37,7 @@ export const AboutSection = () => {
               <a
                 href="https://www.linkedin.com/in/banti-kumar-534997265/"
                 target="_blank"
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 shadow-lg hover:scale-105 transition-colors duration-300"
               >
                 LinkedIn Profile
               </a>
@@ -45,7 +45,7 @@ export const AboutSection = () => {
               <a
                 href="https://drive.google.com/file/d/10GECYPAVlFqoV7JJDZJJtw1Bl_oTRstD/view?usp=drivesdk"
                 target="_blank"
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 shadow-lg hover:scale-105 transition-colors duration-300"
               >
                 Download CV
               </a>
