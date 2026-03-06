@@ -15,8 +15,8 @@ export const HeroSection = () => {
           <div className="flex justify-center lg:order-last">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full p-2 bg-gradient-to-r from-primary via-purple-500 to-secondary animate-fade-in">
               <img
-                src="/image.jpg" // This should match the image name in your /public folder
-                alt="Banti Kushwaha"
+                src="/image1.png"
+                alt="Banti Kumar"
                 className="w-full h-full object-cover rounded-full border-4 border-background"
               />
             </div>
@@ -47,11 +47,11 @@ export const HeroSection = () => {
                 </span>
                   &{" "}
                 <span className="font-semibold text-primary">
-                   MERN Stack Developer&nbsp;
+                  MERN Stack Developer&nbsp;
                 </span>
                 and current{" "}
                 <span className="font-semibold">
-                  MCA student at SRM Institute of Science and Technology
+                  MCA student at SRM Institute of Science and Technology, Kattankulathur, Chennai
                 </span>
                 , with a strong academic foundation from{" "}
                 <span className="font-semibold">
