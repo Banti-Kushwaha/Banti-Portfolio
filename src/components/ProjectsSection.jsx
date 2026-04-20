@@ -6,7 +6,7 @@ const projects = [
     title: "Weather Forecast Web Application",
     description:
       "A modern and fully responsive Weather Forecast Web Application built using React JS, Tailwind CSS, and JavaScript. The app fetches real-time weather data from a Weather API and allows users to search for any city to view current temperature, humidity, and wind speed. It features a clean navigation bar, a visually appealing weather card, and an informative landing section, providing a smooth and user-friendly experience across both desktop and mobile devices.",
-    image: "/weather.png",
+    image: "weather.png",
     tags: ["React JS", "Tailwind CSS", "JavaScript", "API"],
     demoUrl: "https://newweathercheck.netlify.app/",
     githubUrl:
@@ -17,7 +17,7 @@ const projects = [
   title: "Medi-Swift: Hospital Management System",
   description:
     "A full-stack Hospital Management System built using the MERN stack (MongoDB, Express.js, React, Node.js). The application supports multi-role authentication (Admin, Doctor, Patient) with secure JWT-based authorization using HTTP-only cookies. It includes an Admin Dashboard for managing doctors, appointments, messages, and system statistics. Patients can register, book appointments, select departments and doctors, and track medical history. The system integrates Cloudinary for image uploads and provides a responsive, user-friendly interface across devices.",
-  image: "/medi.png",
+  image: "medi.png",
   tags: [
     "React JS",
     "Node.js",
