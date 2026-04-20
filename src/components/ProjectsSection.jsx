@@ -12,6 +12,25 @@ const projects = [
     githubUrl:
       "https://github.com/Banti-Kushwaha/Banti-Portfolio/tree/main/public",
   },
+  {
+  id: 2,
+  title: "Medi-Swift: Hospital Management System",
+  description:
+    "A full-stack Hospital Management System built using the MERN stack (MongoDB, Express.js, React, Node.js). The application supports multi-role authentication (Admin, Doctor, Patient) with secure JWT-based authorization using HTTP-only cookies. It includes an Admin Dashboard for managing doctors, appointments, messages, and system statistics. Patients can register, book appointments, select departments and doctors, and track medical history. The system integrates Cloudinary for image uploads and provides a responsive, user-friendly interface across devices.",
+  image: "../assets/image.png", // change according to your image file
+  tags: [
+    "React JS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "MERN Stack",
+    "Cloudinary",
+  ],
+  demoUrl: "https://medi-swifts.vercel.app/",
+  githubUrl:
+    "https://github.com/Banti-Kushwaha/MediSwift-Smart-Hospital-Management-System", 
+},
 
   // {
   //   id: 2,
