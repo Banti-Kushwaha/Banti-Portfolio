@@ -3,14 +3,22 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Weather Forecast Web Application",
+    title: "GreenCart - MERN Grocery Shopping Platform",
     description:
-      "A modern and fully responsive Weather Forecast Web Application built using React JS, Tailwind CSS, and JavaScript. The app fetches real-time weather data from a Weather API and allows users to search for any city to view current temperature, humidity, and wind speed. It features a clean navigation bar, a visually appealing weather card, and an informative landing section, providing a smooth and user-friendly experience across both desktop and mobile devices.",
-    image: "weather.png",
-    tags: ["React JS", "Tailwind CSS", "JavaScript", "API"],
-    demoUrl: "https://newweathercheck.netlify.app/",
+      "A modern and fully responsive full-stack grocery shopping web application built using the MERN stack. GreenCart allows users to browse products, add items to cart, manage delivery addresses, and place orders with a seamless shopping experience. The platform includes secure user authentication, cart management, seller/admin functionality, product management, and Stripe payment integration. Designed with a clean UI and optimized for both desktop and mobile devices.",
+    image: "GreenCart.png",
+    tags: [
+      "React JS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "JWT",
+      "Stripe API",
+    ],
+    demoUrl: "https://green-cart-mern-967a.vercel.app/",
     githubUrl:
-      "https://github.com/Banti-Kushwaha/Banti-Portfolio/tree/main/public",
+      "https://github.com/Banti-Kushwaha/GreenCart-MERN",
   },
   {
   id: 2,
