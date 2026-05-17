@@ -17,7 +17,7 @@ export const Footer = () => {
           <a href="https://twitter.com" target="_blank" className="hover:text-gray-200 transition-transform hover:scale-110">
             <Twitter size={20} />
           </a>
-          <a href="https://github.com" target="_blank" className="hover:text-gray-200 transition-transform hover:scale-110">
+          <a href="https://github.com/Banti-Kushwaha" target="_blank" className="hover:text-gray-200 transition-transform hover:scale-110">
             <Github size={20} />
           </a>
           <a href="https://linkedin.com" target="_blank" className="hover:text-gray-200 transition-transform hover:scale-110">
